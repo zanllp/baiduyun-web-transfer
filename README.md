@@ -3,7 +3,7 @@
 
 本项目是对 https://github.com/zanllp/stable-diffusion-webui-baidu-netdisk 的简单包装，裹了一层。
 
-功能基本一致，缺了获取一些快捷文件夹的方式而已。具体readme可以直接参考他的
+功能基本一致只是缺了获取一些快捷文件夹的方式而已，但是可以单独跑起来不需要stable-diffusion-webui。具体readme可以直接参考他的
 
 
 

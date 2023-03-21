@@ -1,0 +1,3 @@
+[submodule "external/baiduyun"]
+	path = external/baiduyun
+	url = https://github.com/zanllp/stable-diffusion-webui-baidu-netdisk.git

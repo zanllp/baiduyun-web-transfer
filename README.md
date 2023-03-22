@@ -11,6 +11,7 @@
 
 ```bash
 git clone git@github.com:zanllp/baiduyun-web-transfer.git --recursive
+cd baiduyun-web-transfer
 python -m venv venv #可选，推荐
 source venv/bin/activate #可选，推荐
 pip install -r requirements.txt

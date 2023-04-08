@@ -1,13 +1,10 @@
-
 from fastapi import FastAPI
 import os
 import sys
 from fastapi.responses import FileResponse
 sys.path.append(os.path.join(os.path.dirname(__file__), 'external/baiduyun'))
 from external.baiduyun.scripts.api import baidu_netdisk_api
-from external.baiduyun.scripts.bin import check_bin_exists, download_bin_file, cwd as bd_cwd
-if not check_bin_exists():
-  download_bin_file()
+from external.baiduyun.scripts.bin import cwd as bd_cwd
 app = FastAPI()
 @app.get("/")
 def index():
